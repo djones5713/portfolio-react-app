@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.Contact-Box {
+    background-color: #FDFDFD;
+    width: 65%;
+    height: 600px;
+    border: 1px solid #B954F4;
+    margin: 0 auto;
+    border-radius: 2%;
+}
+
+.Contact-Title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue';
+    font-weight: 300;
+    font-size: 30px;
+    color:#B954F4;
+}
+
+.Left {
+    margin-right: 20px;
+}
+
+.Contact-Top-Input {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.Contact-Bottom-Input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact-Input-Title {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.Contact-Input-Message {
+    width: 530px;
+    height: 150px;
+    border: 1px solid #B954F4;
+}
+
+.Contact-Input-subtitle {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.Contact-Input-subtitle-message {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.Contact-Input-Name {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #B954F4;
+}
+
+.Email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.Contact-Input-Subject {
+    justify-content: center;
+    width: 525px;
+    height: 30px;
+    border: 1px solid #B954F4;
+}
+
+.Contact-Button {
+    background-color: #B954F4;
+    border: none;
+    margin-top: 30px;
+    height: 40px;
+    width: 325px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#alert{
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: -25px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 900px){
+    .Contact-Box {
+        background-color: #FDFDFD;
+        height: 750px;
+        width: 70%;
+   
+    }
+    .Left {
+        margin-right: 0;
+    }
+
+    .Contact-Top-Input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Contact-Input-Subject {
+        justify-content: center;
+        width: 250px;
+        height: 30px;
+        border: 1px solid #B954F4;
+    }
+
+    .Contact-Input-Message {
+        width: 250px;
+        height: 200px;
+    }
+
+    .Contact-Button {
+        width: 250px;
+      
+    }
+
+    .Contact-Input {
+        width: 500px;
+    }
+}

@@ -1,0 +1,39 @@
+.ArticuleImage-itemstyle{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.ArticuleImage-img{
+    width: 60%;
+    height: 400px;
+}
+
+.ArticuleImage-title{
+    margin-top: 10;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.ArticuleImage-box{
+    width: 40%;
+    height: 400px;
+    background-color:#B954F4;
+}
+
+@media only screen and (max-width: 1100px){
+    .ArticuleImage-box{
+        display: none;
+    }
+
+    .ArticuleImage--itemstyle{
+        width: 100%;
+    }
+    .ArticuleImage-img{
+        width: 100%;
+    }
+
+}
