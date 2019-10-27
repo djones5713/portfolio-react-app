@@ -53,3 +53,7 @@ app.post('/api/email', (req, res, next) =>{
 
 
 app.listen(4000, () => console.log("Running on Port 4000"));
+
+app.get('*', (req, res)=>{
+    res.sendFile(path.join(__dirname, '../build/index.html'));
+});

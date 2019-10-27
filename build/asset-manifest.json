@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7a5ed215.chunk.css",
+    "main.js": "/static/js/main.2c643b5c.chunk.js",
+    "main.js.map": "/static/js/main.2c643b5c.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.28f6ede9.js",
+    "runtime~main.js.map": "/static/js/runtime~main.28f6ede9.js.map",
+    "static/js/2.8e1e0f86.chunk.js": "/static/js/2.8e1e0f86.chunk.js",
+    "static/js/2.8e1e0f86.chunk.js.map": "/static/js/2.8e1e0f86.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.90213e4fc87fd15b7199ea45007d659a.js": "/precache-manifest.90213e4fc87fd15b7199ea45007d659a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7a5ed215.chunk.css.map": "/static/css/main.7a5ed215.chunk.css.map",
+    "static/media/Destiny1.png": "/static/media/Destiny1.6179fdda.png",
+    "static/media/Destiny4.png": "/static/media/Destiny4.c2cb904b.png",
+    "static/media/Icon.png": "/static/media/Icon.298bef10.png"
+  }
+}
